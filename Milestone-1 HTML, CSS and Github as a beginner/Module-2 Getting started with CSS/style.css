@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height:400px;
+    background-image: url('img/back.jpg');
+    color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+p{
+    color:#750080;
+    font-size: 25px;
+    background-color: rgb(255, 251, 0);
+    width: 75%;
+    text-align: center;
+    border: 5px double red;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#lorem{
+    color:#000;
+}
+.bismi{
+    color:blue;
+}
+.red{
+    color: red;;
+}
+li{
+    font-weight: bold;
+}
+li.dad{
+    text-decoration: underline;
+}
