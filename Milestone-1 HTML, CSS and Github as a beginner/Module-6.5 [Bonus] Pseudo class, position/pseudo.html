@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo</title>
+    <style>
+        h1{
+            color: royalblue;
+        }
+
+        h1:hover{
+            color: skyblue;
+        }
+
+        .middle:focus{
+            color: red;
+            font-weight: 700;
+            
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        li:first-child{
+            color: blueviolet;
+        }
+
+        li:last-child{
+            color: blue;
+        }
+
+        li:nth-child(2n){
+            color: yellow;
+        }
+
+        h3::before{
+            content: "Hellow!!! ";
+        }
+    </style>
+</head>
+<body>
+    <h1>This is Bismi</h1>
+    <input type="text">
+    <input class="middle" type="text">
+    <input type="text">
+    <br>
+    <a href="https://css-tricks.com">Flex</a>
+    <a href="https://google.com">Google</a>
+    <br>
+    <h3>Middle size header -1</h3>
+    <h3>Middle size header -2</h3>
+    <h3>Middle size header -3</h3>
+    <h3>Middle size header -4</h3>
+    <h3>Middle size header -5</h3>
+    <h3>Middle size header -6</h3>
+
+    <ul>
+        <li>alia</li>
+        <li>kalia</li>
+        <li>nalia</li>
+        <li>jalia</li>
+    </ul>
+</body>
+</html>
