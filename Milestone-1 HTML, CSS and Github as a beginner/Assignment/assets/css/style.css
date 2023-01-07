@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/**** Banner Section ****/
+header{
+    background-image: url(../banner/banner1.png);
+    height: 100vh;    
+    background-repeat: no-repeat;   
+}
+
+.banner-section{
+    display: flex;
+    text-align: right;
+    align-items: flex-end;    
+    flex-direction: column;
+    width: 30%;
+    position:absolute;
+    right: 10%;
+    bottom: 25%;
+}
+
+.banner-title{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.banner-btn{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #F15B22;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid #F15B22;
+}
+
+.banner-btn:hover {
+    color: #F15B22;
+    background-color: aliceblue;
+    border: 1px solid #F15B22;
+}
+
+
+
+/**** Previous year section ****/
+.failure-section{
+    display: flex; 
+    column-count: 2;
+    column-gap: 10%;
+    margin-top: 15%;
+    padding: 0 7%;  
+}
+
+.failure-ul{
+    padding: 0;
+}
+
+.failure-list{
+    list-style: none;
+    text-align: left;   
+    right: 10%;
+    bottom: 25%;
+    color: #444343;
+}
+
+.failure-list::before{
+    content: '✔️';
+    padding: 5px;
+}
+
+.ball{
+        background-color: #FF7A59;
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        margin-top: 44.7%;
+        margin-left: 7%;
+}
+
+.failure-item1 img{
+    position: absolute;
+}
+
+.failure-item2{
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+.failure-title{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.failure-discription{
+    font-size: 16px;
+    margin: 40px 0;
+    color: #444343;
+    line-height: 30px;
+}
+
+
+
+/****My Success  Section ****/
+.my-success{
+    background: #FFF8F3;
+    padding: 20% 10%;
+}
+
+.section-title{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.section-description{
+    padding: 0 15%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skill-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description{
+    color: #757575;
+    text-align: justify;
+}
+
+
+/**** Plans Section ****/
+.plans{
+    padding-bottom: 10%;
+}
+
+.plans h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.plans-item{
+    display: flex;
+    justify-content:space-around;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.plans-item h4{
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.plans-item p{
+    font-size: 18px;
+    line-height: normal;
+    color: #737272;
+}
+
+
+
+/* Keep Positive Section */
+.keep-positive{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.keep-positive-img{
+    background-image: linear-gradient(to left, rgba(241, 91, 34,0), rgba(241, 91, 34,1)), url('../images/watch.png') ;
+    width: 71%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.keep-positive-title{
+    font-weight: 600;
+    font-size: 40px;
+    padding: 40px 64px 64px;
+    color: aliceblue;
+}
+
+.btn{
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: rgb(241, 91, 34);
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+}
+
+.keep-positive-item2{
+    padding: 20px 50px;
+}
+
+
+/**** Footer Area ****/
+footer{
+    background-color: #151414;
+    color: white;
+    height: 70vh;
+    margin-top: 10%;
+}
+
+.footer-area{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10%;
+}
+
+.left-footer{
+    width: 30%;
+}
+
+.footer-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.left-footer p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.left-footer a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.right-footer p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.email{
+    display: block;
+    padding: 15px 40px 15px 10px;
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    margin: 20px 0;
+    background-color: #151414;
+    color: #fff;
+    font-size: 18px;
+}
