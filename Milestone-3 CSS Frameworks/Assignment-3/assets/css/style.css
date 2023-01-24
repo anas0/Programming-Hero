@@ -1,0 +1,76 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    font-family: 'EB Garamond', serif;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px !important;
+}
+
+.btn-primary{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px !important;
+    background-color: #B68C5A;
+    border-color: #B68C5A;
+}
+
+.btn-primary:hover{
+    color: #B68C5A;
+    background-color: aliceblue;
+    border-color: #B68C5A;
+}
+
+section h1, h2, h3, h4, h5{
+    color: #1E1E1E !important;
+}
+
+section p{
+    color: #707070 !important;
+}
+
+.card{
+    background-color: #f5f4f4;
+}
+
+.w-25{
+    width: 15% !important;
+}
+
+.circle{
+    font-size: 12px !important;
+    font-weight: bolder !important;
+}
+
+.carousel-caption p, h4{
+    color: aliceblue !important;
+}
+
+.accordion-button::after {
+    background-image: url('../images/plus.png');
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus.png');
+  }
+
+  .list-group-item{
+    border: none !important;
+  }
+
+  input{
+    color: #707070 !important;
+  }
+
+  footer{
+    color: aliceblue !important;
+  }
+
+  footer p{
+    font-size: 12px !important;
+  }
