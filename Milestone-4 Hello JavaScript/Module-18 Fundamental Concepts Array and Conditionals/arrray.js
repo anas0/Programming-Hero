@@ -27,3 +27,5 @@ if(ages[3] >= 18){
 }else{
     console.log('You are under age');
 }
+
+console.log(6 != 6)
