@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Ora DOM DOM DOM!!!</h1>
+    </header>
+
+    <main class="container">
+        <h1>Welcome to my DOM</h1>
+        <ul>
+            <li>Item -1</li>
+            <li>Item -2</li>
+            <li>Item -3</li>
+            <li>Item -4</li>
+        </ul>
+    </main>
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        console.log("bismi");
+        console.log(document);
+        let b = document.getElementsByTagName('h1');
+        for(let bb of b){
+            console.log(bb.innerText);
+        }
+    </script>
+</body>
+</html>
