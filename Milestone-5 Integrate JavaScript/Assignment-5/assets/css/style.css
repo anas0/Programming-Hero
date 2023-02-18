@@ -1,0 +1,28 @@
+img{
+  height: 194px;
+}
+
+input{
+  width: 25%;
+}
+
+.hidden{
+  display: none;
+}
+
+#meter{
+  display: none;
+}
+
+#show-calculate{
+  display: inline-block;
+}
+
+#show-button{
+  font-size: 12px;
+  /* display: none; */
+}
+
+.show{
+  display: inline-block;
+}
