@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Universe Hub</title>
+    <!-- daisyUI  -->
+    <link href="assets/css/daisyui-full.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <!-- tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS  -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <!-- Header Area  -->
+    <header>
+        <div class="heading text-center py-5">
+          <h1 class="text-5xl font-semibold">AI Universe Hub</h1>
+          <button id="sort-by-date" class="btn bg-red-500 hover:bg-red-700 border-none my-10">Sort By Date</button>
+        </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="flex items-center justify-center">
+          <div id="loader" class="hidden h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+            role="status">
+            <span
+              class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+              >Loading...</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="md:container md:mx-auto">
+        <div id="display-universe-hub" class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 justify-center">
+          
+        </div>
+      </section>
+
+      <section class="text-center py-10">
+        <button id="see-more" class=" hidden btn bg-red-500 hover:bg-red-700 border-none px-8">See More</button>
+      </section>
+           
+      <section>
+        <div id="model">          
+          <input type="checkbox" id="my-modal" class="modal-toggle" />
+          <div class="modal">
+            <div class="indicator">
+              <label for="my-modal" class="indicator-item badge badge-secondary">✕</label>
+              <div class="grid lg:grid-cols-2 gap-4 card w-full bg-base-100 shadow-xl rounded-lg  justify-center">
+                <div class="px-5 ml-14 pt-7 mb-3">
+                  <div class="w-64 border-solid border rounded-lg border-red-400 p-3">
+                    <h4 id="universe-hub-description" class="font-semibold text-base">
+                      
+                    </h4>
+                    <div id="universe-hub-pricing" class="grid grid-cols-3 gap-4 py-7 text-center text-xs">
+
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 mb-1">
+                      <div>
+                        <h3 class="text-base font-semibold">Features</h3>
+                        <div>
+                          <ul id="universe-hub-features" class="list-disc pl-5 text-xs">
+                          
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div>
+                        <h3 class="text-base font-semibold">Integrations</h3>
+                        <ul id="universe-hub-integrations" class="list-disc pl-5 text-xs">
+                          
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div class="border-solid border shadow-xl rounded-lg border-neutral-100 p-5  m-5 relative">
+                    <p id="universe-hub-accuracy">
+                      
+                    </p>
+                    <figure id="universe-hub-image-link">
+                    </figure>
+                    <div id="universe-hub-examples" class="card-body items-center text-center  w-60 mx-auto">
+                      <h2 class="card-title text-xl">Hi, how are you doing today?</h2>
+                      <p class="text-sm">If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+    </main>
+    
+    
+
+
+    <!-- JavaScript  -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
