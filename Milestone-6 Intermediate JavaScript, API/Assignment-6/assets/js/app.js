@@ -146,15 +146,15 @@ function displayDerail(data){
 
     const integrations = data.integrations;
 
-    if(integrations.length > 0){
+    if(integrations === null){
+        universeHubIntegrations.innerText = "No data Found";        
+    }else{
         integrations.forEach(integration => {
             const universeHubIntegrationsLi = document.createElement('li');
             universeHubIntegrationsLi.innerText = integration;
     
             universeHubIntegrations.appendChild(universeHubIntegrationsLi);
         });
-    }else{
-        universeHubIntegrations.innerText = "No data Found";
     }
     
 
@@ -171,14 +171,16 @@ function displayDerail(data){
         <img id="universe-hub-image-link" src="${data.image_link[0]}" alt="img" class="rounded-xl w-64" />
     `;
 
-
+    console.log(data.accuracy.score);
     // Accuracy
-    if(data.accuracy){
-        const universeHubAccuracy = document.getElementById('universe-hub-accuracy');
+    const universeHubAccuracy = document.getElementById('universe-hub-accuracy');
+    if(data.accuracy.score === null){
+        console.log("null");
+
+        universeHubAccuracy.innerText = '';
+    }else{
         universeHubAccuracy.innerText = '';
         universeHubAccuracy.innerHTML = `<span class="bg-red-600 text-white px-2 py-1 rounded-lg text-small">${data.accuracy.score} accuracy</span>`;
-    }else{
-        console.log("no");
     }
 
 }
