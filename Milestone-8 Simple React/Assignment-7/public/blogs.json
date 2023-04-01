@@ -1,0 +1,42 @@
+[
+    {
+        "id": "01",
+        "title": "How to get your first job as a self-taught programmer",
+        "writer": "John Cena",
+        "publish_in": "Mar 30",
+        "read_time": 5,
+        "hashtag": ["beginners","programming"],
+        "img": "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80",
+        "url": "https://staticg.sportskeeda.com/editor/2019/03/78a68-15516176606788-800.jpg"
+    },
+    {
+        "id": "02",
+        "title": "What are the most in-demand programming languages for a career in software development?",
+        "writer": "Dave Bautista",
+        "publish_in": "Mar 6",
+        "read_time": 10,
+        "hashtag": ["career","programming","job-opportunities"],
+        "img": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+        "url": "https://www.nme.com/wp-content/uploads/2019/07/Dave-Bautista-696x442.jpg"
+    },
+    {
+        "id": "03",
+        "title": "What are the most important skills and qualities that employers look for in software developers?",
+        "writer": "Brock Lesnar",
+        "publish_in": "feb 28",
+        "read_time": 7,
+        "hashtag": ["skills","software"],
+        "img": "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "url": "https://www.pngkit.com/png/full/14-145279_wwe-clipart-brock-lesnar-wwe-brock-lesnar-png.png"
+    },
+    {
+        "id": "04",
+        "title": "What are the different career paths available in the software development industry?",
+        "writer": "Randy Orton",
+        "publish_in": "feb 23",
+        "read_time": 13,
+        "hashtag": ["software","career"],
+        "img": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "url": "https://media.bleacherreport.com/w_800,h_533,c_fill/br-img-images/003/008/756/e2c26f3e8bc132648bd6c85650c1930e_crop_north.jpg"
+    }
+]
