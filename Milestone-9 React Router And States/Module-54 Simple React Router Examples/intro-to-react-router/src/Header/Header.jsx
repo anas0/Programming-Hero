@@ -6,10 +6,10 @@ import ActiveLink from '../ActiveLink/ActiveLink';
 const Header = () => {
     return (
         <nav>
-            <Link to='/'>Home</Link>
-            <Link to="friends">Friends</Link>
-            <ActiveLink to={"/about"}>About</ActiveLink>
-            <Link to={"/contact"}>Contact</Link>
+            <ActiveLink to='/'>Home</ActiveLink>
+            <ActiveLink to="friends">Friends</ActiveLink>
+            <ActiveLink to={'/about'}>About</ActiveLink>
+            <ActiveLink to={"/contact"}>Contact</ActiveLink>
         </nav>
     );
 };
